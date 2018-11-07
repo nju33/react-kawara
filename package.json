@@ -1,0 +1,63 @@
+{
+  "name": "@summary.shop/react-kawara",
+  "description": "",
+  "version": "0.0.0",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.13.0",
+    "yarn": ">=1.10.0"
+  },
+  "main": "dist/main/index.js",
+  "types": "dist/types/index.d.ts",
+  "module": "dist/module/index.js",
+  "source": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepare": "yarn build",
+    "test": "jest",
+    "dev": "yarn docz.dev",
+    "docz.dev": "docz dev --port 7694",
+    "docz.build": "docz build",
+    "build": "babel src -d dist  --ignore '**/*.test.js','**/*.test.jsx'"
+  },
+  "contributors": [
+    "nju33 <nju33.ki@gmail.com>",
+    "Aki-Japan"
+  ],
+  "repository": "nju33/react-kawara",
+  "homepage": "https://github.com/nju33/nju33/react-kawara",
+  "bugs": "https://github.com/nju33/nju33/react-kawara/issues",
+  "keywords": [],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react": "^16.6.0",
+    "styled-components": "^4.0.0"
+  },
+  "devDependencies": {
+    "@geekcojp/tslint-config": "^0.2.1",
+    "@types/enzyme": "^3.1.15",
+    "@types/jest": "^23.3.9",
+    "@types/prop-types": "^15.5.6",
+    "@types/react": "^16.4.18",
+    "@types/styled-components": "^4.0.3",
+    "docz": "^0.12.9",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.15.1",
+    "react": "^16.6.1",
+    "renovate-config-nju33": "^0.0.1",
+    "styled-components": "^4.0.3",
+    "ts-jest": "^23.10.4",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2"
+  }
+}
