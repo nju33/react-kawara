@@ -6,7 +6,7 @@ import * as atoms from '../atoms';
 
 export interface KawaraPassingProps {
   items: {
-    key: string;
+    key: string | number;
     element: React.ReactNode;
   }[];
   rect: {
