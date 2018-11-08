@@ -1,1 +1,1 @@
-// Re-export here
+export * from './kawara.module';

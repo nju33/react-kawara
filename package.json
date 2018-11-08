@@ -1,5 +1,5 @@
 {
-  "name": "@summary.shop/react-kawara",
+  "name": "react-kawara",
   "description": "",
   "version": "0.0.0",
   "license": "MIT",
@@ -20,7 +20,11 @@
     "dev": "yarn docz.dev",
     "docz.dev": "docz dev --port 7694",
     "docz.build": "docz build",
-    "build": "babel src -d dist  --ignore '**/*.test.js','**/*.test.jsx'"
+    "build.main": "tsc -P tsconfig.main.json",
+    "build.module": "tsc -P tsconfig.module.json",
+    "build.types": "tsc -P tsconfig.types.json --emitDeclarationOnly",
+    "build.doc": "yarn docz build -d docs --base /react-dou/",
+    "build": "yarn build.main && yarn build.module && yarn build.types"
   },
   "contributors": [
     "nju33 <nju33.ki@gmail.com>",
@@ -58,6 +62,7 @@
     "typescript": "3.1.6"
   },
   "dependencies": {
+    "@nju33/reducer-action": "^0.0.1",
     "prop-types": "^15.6.2"
   }
 }

@@ -1,1 +1,2 @@
-// Re-export here
+export * from './tile-group';
+export * from './tile';

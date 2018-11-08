@@ -4,7 +4,115 @@ name: Component
 ---
 
 import {Playground} from 'docz';
+import {Kawara} from '.';
+import {MyKawara} from './my-kawara.test';
+import nanoid from 'nanoid';
+
+## Pager
 
 <Playground>
-	<div>Hello Docz!</div>
+  {() => {
+      const prevKey = nanoid();
+      const nextKey = nanoid();
+
+      const items = [
+        {
+          key: prevKey,
+          element: '<'
+        },
+        {
+          key: nanoid(),
+          element: 1
+        },
+        {
+          key: nanoid(),
+          element: 2
+        },
+        {
+          key: nanoid(),
+          element: 3
+        },
+        {
+          key: nextKey,
+          element: '>'
+        },
+      ];
+
+      return (
+        <Kawara
+          rect={{
+            width: 20,
+            height: 20
+          }}
+          gutter={5}
+          items={items}
+          clickable={true}
+          onClick={action => {
+            if (action.payload.key === prevKey) {
+              console.log('prev clicked');
+            }
+          }}
+        />
+      );
+    }
+  }
+</Playground>
+
+<Playground>
+  <Kawara
+    rect={{
+      width: 100,
+      height:100 
+    }}
+    gutter={15}
+    items={[
+      {
+        key: nanoid(),
+        element: 1
+      },
+      {
+        key: nanoid(),
+        element: 2
+      },
+      {
+        key: nanoid(),
+        element: 3
+      },
+    ]}
+    clickable={true}
+    onClick={action => {
+      console.log(action);
+    }}
+  />
+</Playground>
+
+
+## Cusomize
+
+<Playground>
+  <MyKawara
+    rect={{
+      width: 20,
+      height: 20
+    }}
+    gutter={5}
+    items={[
+      {
+        key: nanoid(),
+        element: 1
+      },
+      {
+        key: nanoid(),
+        element: 2
+      },
+      {
+        key: nanoid(),
+        element: 3
+      },
+    ]}
+    clickable={true}
+    onClick={action => {
+      console.log(action);
+    }}
+  />
 </Playground>
