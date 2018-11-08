@@ -62,7 +62,7 @@
     "typescript": "3.1.6"
   },
   "dependencies": {
-    "@nju33/reducer-action": "^0.0.1",
+    "@nju33/reducer-action": "^0.0.2",
     "prop-types": "^15.6.2"
   }
 }

@@ -946,10 +946,10 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@nju33/reducer-action@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@nju33/reducer-action/-/reducer-action-0.0.1.tgz#9153b3e6bf4a7901916df78284b9c9929e7b06cf"
-  integrity sha512-D6Wq0QMmPUDDDbMtKJWOhqFRpqQGprSsmMylkiIWdgr2qiT46ESXXqUPeC1Kk0S56yrOlwvJBXo00kHCyr/5Rg==
+"@nju33/reducer-action@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@nju33/reducer-action/-/reducer-action-0.0.2.tgz#82cdb1ac241da41875d8c6b4b8cd99f96ef3970c"
+  integrity sha512-4Z5dTokgEyTFOpv6bJHlJmoBniTBI6SW2GSLdRTTBPLRpFo38jor44HjeBX6QSlpo/sw2X8vVaWiFhKF4me5ZQ==
 
 "@nodelib/fs.stat@^1.0.1":
   version "1.1.3"
