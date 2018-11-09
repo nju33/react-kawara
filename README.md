@@ -1,4 +1,4 @@
-# @summary.shop/react-kawara
+react-kawara
 
 [![CircleCI](https://circleci.com/gh/nju33/react-kawara.svg?style=svg&circle-token=9c6b0217483ac8aca3220b42a652f08e0b36cfa4)](https://circleci.com/gh/nju33/react-kawara)
 [![TypeScript](https://badges.frapsoft.com/typescript/code/typescript.svg?v=101)](https://github.com/ellerbrock/typescript-badges/)
@@ -9,5 +9,5 @@
 ## Install
 
 ```bash
-yarn add @summary.shop/react-kawara react styled-components # @types/react @types/styled-components
+yarn add react-kawara react styled-components # @types/react @types/styled-components
 ```
