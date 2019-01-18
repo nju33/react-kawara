@@ -47,7 +47,7 @@
     "@types/jest": "23.3.12",
     "@types/prop-types": "15.5.8",
     "@types/react": "16.7.20",
-    "@types/styled-components": "4.1.5",
+    "@types/styled-components": "4.1.6",
     "docz": "0.13.7",
     "enzyme": "3.8.0",
     "enzyme-adapter-react-16": "1.7.1",
