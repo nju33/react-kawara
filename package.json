@@ -60,7 +60,7 @@
     "ts-jest": "23.10.5",
     "ts-node": "7.0.1",
     "tslint": "5.20.1",
-    "typescript": "3.8.3"
+    "typescript": "3.9.2"
   },
   "dependencies": {
     "@nju33/reducer-action": "^0.0.2",
