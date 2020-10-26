@@ -52,7 +52,7 @@
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.5",
     "jest": "23.6.0",
-    "nanoid": "2.1.11",
+    "nanoid": "3.1.16",
     "prettier": "1.19.1",
     "react": "16.14.0",
     "renovate-config-nju33": "0.0.1",
